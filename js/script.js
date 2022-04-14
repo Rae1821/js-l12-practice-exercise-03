@@ -12,7 +12,8 @@ const displayContactList = function (data) {
         if (student.registered === "no") {
             const li = document.createElement("li");
             li.innerText = student.name;
-            notRegistered.append("li");
+            notRegistered.append(li);
+            console.log(li);
            
         }
     }
